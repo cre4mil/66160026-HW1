@@ -6,3 +6,16 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+
+header {
+    background-color: #7b6854;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+}
