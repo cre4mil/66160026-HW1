@@ -117,3 +117,28 @@ footer {
 footer a {
     color: rgb(247, 254, 117);
 }
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: row;
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        background-color: #c3e3d6;
+        padding: 0px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
