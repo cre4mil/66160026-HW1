@@ -48,3 +48,16 @@ nav ul li a:hover {
     background-color: #b0c9df;
     color: #f9f96e;
 }
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #ffee7e;
+    margin: 3px 0;
+}
