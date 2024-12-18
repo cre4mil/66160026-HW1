@@ -61,3 +61,13 @@ nav ul li a:hover {
     background-color: #ffee7e;
     margin: 3px 0;
 }
+main {
+    padding: 20px;
+}
+
+main section h1,
+main section h2 {
+    text-align: center;
+    color: #494949;
+    margin: 20px;
+}
